@@ -44,6 +44,14 @@ namespace Week3Day2
             return MPG;
         }
 
+        public void BoatInfo()
+        {
+            Console.WriteLine("Name: " +name);
+            Console.WriteLine("Passengers: " + numberOfPassengers);
+            Console.WriteLine("Engine size: " + engineSize);
+            Console.WriteLine("MPG " + CalculateMPG());
+        }
+
     }
 
     
