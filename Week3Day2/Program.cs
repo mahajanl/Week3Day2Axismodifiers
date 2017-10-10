@@ -10,6 +10,8 @@ namespace Week3Day2
     {
         static void Main(string[] args)
         {
+            Boat Herbie = new Boat(3, "Herbie", 18.6);
+            Herbie.Move();
         }
     }
 }
